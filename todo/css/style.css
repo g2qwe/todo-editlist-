@@ -1,0 +1,232 @@
+
+
+.container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0;
+
+}
+
+.col-12 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.carousel-indicators li:hover {
+  cursor: pointer;
+}
+.row {
+
+  margin: 0px;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 30px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  word-break:break-all;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+
+  word-break:break-all;
+}
+
+
+ul li:hover {
+  background: #ddd;
+  word-break:break-all;
+}
+
+
+
+input, button {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: #555;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+    margin: 8px auto;
+}
+
+button:hover {
+    color: black;
+}
+
+#add {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+
+#add:hover {
+  background-color: #bbb;
+   color: #555;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type="text"] {
+   margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+
+input[type="text"]:focus {
+    color: black;
+}
+
+label[for='new-task'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#new-task {
+    float: left;
+    width: 75%;
+}
+
+p > button:hover {
+    color: #0FC57C;
+}
+
+li {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 1px 0 0 11px
+}
+
+li > input[type="text"] {
+    width: 457px;
+}
+
+li > .delete:hover {
+    color: #0fc57c;
+}
+
+#finished-tasks label, #finished-tasks button {
+    text-decoration: line-through;
+    color: #555;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+button.checkbox {
+    float: left;
+}
+#clear{
+  width: 25%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  margin: 40px 35%;
+  background-color: #d9d9d9;
+  color: #555;
+}
+#clear:hover{
+  background-color: #bbb;
+  color: #555;
+}
+.delete {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 12px 16px 12px 16px;
+
+}
+
+.delete:hover {
+  background-color: #888;
+  color: white;
+}
+
+.edit {
+  position: absolute;
+  right: 65px;
+  top: 10px;
+  padding: 12px 16px 12px 16px;
+  size: 30px;
+}
+
+.edit:hover {
+  background-color: #888;
+  color: white;
+}
+.save {
+  position: absolute;
+  right: 65px;
+  top: 10px;
+  padding: 12px 16px 12px 16px;
+}
+
+.save:hover {
+  background-color: #888;
+  color: white;
+}
